@@ -1,0 +1,40 @@
+body {
+    background-color:rgb(255, 249, 249);
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "article"
+    "div";
+
+    
+}
+article{
+    margin: 0px;
+    padding:0px;
+    
+    
+
+}
+div{
+    margin: 0px;
+    padding: 0px;
+            
+}
+img{
+    width: 150px;
+    }
+li {
+    list-style-type: none;
+    display: inline;
+    
+}
+.item {
+    align-self: start;
+}
+.utem {
+    align-self: end;
+}
+#pic{
+    width: 1px;
+}
